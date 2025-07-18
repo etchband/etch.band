@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'><code>zus.fyi</code></h3>
+<h3 align='center'>zus.fyi</h3>
 <p align='center'>
   The züs website
 </p>
