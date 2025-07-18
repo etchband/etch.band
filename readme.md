@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@cluesurf/zus.fyi</h3>
+<h3 align='center'><code>zus.fyi</code></h3>
 <p align='center'>
   The züs website
 </p>
