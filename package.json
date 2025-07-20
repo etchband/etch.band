@@ -2,7 +2,7 @@
   "name": "@cluesurf/zus.fyi",
   "version": "0.1.0",
   "private": true,
-  "license": "aGPLv3",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
