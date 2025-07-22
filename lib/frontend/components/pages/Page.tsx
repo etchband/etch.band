@@ -12,6 +12,7 @@ import XTwitterIcon from '@cluesurf/leaf/component/icon/XTwitter'
 import FacebookIcon from '@cluesurf/leaf/component/icon/Facebook'
 import LinkedInIcon from '@cluesurf/leaf/component/icon/LinkedIn'
 import SoundCloudIcon from '@cluesurf/leaf/component/icon/Soundcloud'
+import useViewport from '@cluesurf/leaf/hook/useViewport'
 import Environment from '~/lib/frontend/components/Environment'
 import Layout, { LayoutState } from '@cluesurf/leaf/component/Layout'
 import useScripts from '@cluesurf/leaf/hook/useScripts'
@@ -50,8 +51,11 @@ function IconLink({
 
 function Content() {
   const [shift, setShift] = useState<LayoutState>()
+  const { width } = useViewport()
 
   useScripts(['code'])
+
+  const logoClassName = width < 400 ? 'w-full' : 'h-256'
 
   return (
     <Layout
@@ -69,9 +73,11 @@ function Content() {
     >
       <div className="min-h-screen relative min-h-full flex justify-center items-center p-16">
         <Image
-          className="h-512 -top-32 select-none dark:filter-(--mostly-invert-filter)"
+          className={clsx(
+            '-top-16 select-none dark:filter-(--mostly-invert-filter)',
+            logoClassName,
+          )}
           src="/logo.png"
-          height={512}
         />
       </div>
     </Layout>
