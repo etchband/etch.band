@@ -69,7 +69,7 @@ function Content() {
     >
       <div className="min-h-screen relative min-h-full flex justify-center items-center p-16">
         <Image
-          className="h-512 select-none dark:filter-(--mostly-invert-filter)"
+          className="h-512 -top-32 select-none dark:filter-(--mostly-invert-filter)"
           src="/logo.png"
           height={512}
         />
