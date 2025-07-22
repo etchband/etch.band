@@ -55,8 +55,6 @@ function Content() {
 
   useScripts(['code'])
 
-  const logoClassName = width < 400 ? 'w-full' : 'h-256'
-
   return (
     <Layout
       onShift={setShift}
@@ -75,7 +73,7 @@ function Content() {
         <Image
           className={clsx(
             '-top-16 select-none dark:filter-(--mostly-invert-filter)',
-            logoClassName,
+            width < 400 ? 'w-full' : 'h-256',
           )}
           src="/logo.png"
         />
