@@ -3,8 +3,8 @@ import { buildMetadata } from '@cluesurf/leaf/utility/metadata'
 import { CURRENT_URL } from '~/lib/shared/utilities/url'
 
 export const metadata = buildMetadata({
-  site: 'züs',
-  title: 'züs',
+  site: '@etchband',
+  title: 'Etch Band',
   // description: '',
   images: {
     url: `${CURRENT_URL ?? ''}/etch_1200x630.png`,
