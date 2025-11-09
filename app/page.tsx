@@ -7,9 +7,9 @@ export const metadata = buildMetadata({
   title: 'züs',
   // description: '',
   images: {
-    url: `${CURRENT_URL}/logo.png`,
-    width: 1590,
-    height: 938,
+    url: `${CURRENT_URL ?? ''}/etch_1200x630.png`,
+    width: 1200,
+    height: 630,
     type: 'image/png',
   },
 })

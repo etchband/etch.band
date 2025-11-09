@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit'
-import { QueryKey } from '../services/redux'
+import { QueryKey } from '~/lib/frontend/services/redux'
 import pages, { mappings as pageMappings } from './pages'
 
 const queries = {
