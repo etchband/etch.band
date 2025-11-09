@@ -4,7 +4,7 @@ import { CURRENT_URL } from '~/lib/shared/utilities/url'
 
 export const metadata = buildMetadata({
   site: '@etchband',
-  title: 'Etch Band',
+  title: 'Etch',
   // description: '',
   images: {
     url: `${CURRENT_URL ?? ''}/etch_1200x630.png`,
