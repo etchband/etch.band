@@ -69,7 +69,7 @@ function Content() {
         )
       }
     >
-      <div className="min-h-screen relative min-h-full flex justify-center items-center p-16">
+      <div className="min-h-screen relative min-h-full flex flex-col justify-center items-center p-16">
         <Image
           className={clsx(
             '-top-16 select-none dark:filter-(--mostly-invert-filter)',
@@ -77,6 +77,7 @@ function Content() {
           )}
           src="/etch-star.png"
         />
+        <div className="text-[24px]">etch</div>
       </div>
     </Layout>
   )
