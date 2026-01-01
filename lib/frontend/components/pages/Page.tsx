@@ -75,7 +75,7 @@ function Content() {
             '-top-16 select-none dark:filter-(--mostly-invert-filter)',
             width < 400 ? 'w-full' : 'h-256',
           )}
-          src="/etch-star.png"
+          src="/etch-mesh.png"
         />
         <div className="text-[24px]">etch</div>
       </div>
